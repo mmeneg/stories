@@ -1,0 +1,68 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+  font-size: 45px;
+  font-weight: 100;
+  color: white;
+  margin-top: 100px;
+}
+
+body h2 {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+body p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 12px 26px;
+}
+
+.home-main {
+  background-image: url("https://www.dropbox.com/s/lpizr5uatiohjoq/IMG_1446.jpg?raw=1");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.home-secondary {
+  background-image: url("https://www.dropbox.com/s/lswkcfga01bpwnx/20170115_164035.jpg?raw=1");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.home-supporting, .home-discovery {
+  padding: 80px;
+}
+
+footer p {
+  font-size: 12px;
+  font-weight: 300;
+  color: grey;
+}
+
+footer {
+  padding: 40px;
+  background-color: lightgrey;
+}
+
+#home-menu {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.glyphicon-menu-hamburger {
+  color: white;
+}
