@@ -42,7 +42,7 @@ body p {
   height: 500px;
 }
 
-.home-supporting, .home-discovery {
+.home-supporting, .home-discovery, .about-supporting {
   padding: 80px;
 }
 
@@ -65,4 +65,11 @@ footer {
 
 .glyphicon-menu-hamburger {
   color: white;
+}
+
+.about-main {
+  background-image: url("https://www.dropbox.com/s/kl9aj99rt4mhy2c/Castle2.jpg?raw=1");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
 }

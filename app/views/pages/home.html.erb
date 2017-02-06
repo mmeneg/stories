@@ -1,16 +1,9 @@
+
+
 <div class="home-main">
-  <a id="home-menu" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
-  <div id="sidr">
-    <ul>
-      <li><a href="#" data-turbolinks="false">Home</a></li>
-      <li><a href="#" data-turbolinks="false">About</a></li>
-      <li><a href="#" data-turbolinks="false">Contact</a></li>
-    </ul>
-  </div>
-  
   <div class="container">
     <h1 class="text-center">Create and Share Stories</h1>
-    <p class="text-center"><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
+    <p class="text-center"><%= link_to "Learn More", about_path, class: "btn btn-primary", :'data-turbolinks' => "false", role: "button" %></p>
   </div>
 </div>
 
@@ -30,9 +23,3 @@
     <p class="text-center"><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
   </div>
 </div>
-
-<footer>
-  <div class="contaier">
-    <p class="text-center">A MAU PROJECT</p>
-  </div>
-</footer>

@@ -9,8 +9,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  
+  <a id="home-menu" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+  <div id="sidr">
+    <ul>
+      <li><%= link_to "Home", root_path, :'data-turbolinks' => "false" %></li>
+      <li><%= link_to "About", about_path, :'data-turbolinks' => "false" %></li>
+      <li><a href="#" data-turbolinks="false">Contact</a></li>
+    </ul>
+  </div>
 
   <%= yield %>
+  
+  <footer>
+  	<div class="contaier">
+    	<p class="text-center">A MAU PROJECT</p>
+  	</div>
+	</footer>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <script src="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
