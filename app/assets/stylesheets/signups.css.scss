@@ -1,0 +1,34 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.field {
+  margin-bottom: 15px;
+}
+
+.field input {
+  padding: 10px 10px;
+  //font-size: 20px;
+}
+
+.form-control, .btn-default {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 0;
+}
+
+.form-group label {
+  color: white;
+  font-size: 16px;
+}
+
+.new-main {
+  background-image: url("https://www.dropbox.com/s/017z7q5ackhr3ui/desertdune.jpeg?raw=1");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  padding-top: 150px;
+}
+
+.new-main h2 {
+  color: white;
+  margin-bottom: 30px;
+}

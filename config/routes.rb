@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   root 'pages#home'
   get '/about' => 'pages#about', as: :about
+  get '/thanks' => 'pages#thanks', as: :thanks
+  resources :signups, only: [:new, :create]
+  #get '/signups/new' => 'signups#new', as: :new
+  #post '/signups' => 'signups#create', as: :create
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
